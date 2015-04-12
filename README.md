@@ -33,3 +33,4 @@ Add the following if required
 
 	ca _VPNCA_
 	crl _VPNCRL_
+Once that is done, the new config is useable by running vpnr.sh nordvpn

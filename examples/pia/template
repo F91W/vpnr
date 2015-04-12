@@ -1,0 +1,19 @@
+client
+dev tun
+proto udp
+remote _VPNServer_ 1194
+resolv-retry infinite
+nobind
+persist-key
+persist-tun
+ca _VPNCA_
+tls-client
+remote-cert-tls server
+auth-user-pass _VPNAuth_
+auth-nocache
+comp-lzo
+verb 1
+reneg-sec 0
+crl-verify _VPNCRL_
+
+

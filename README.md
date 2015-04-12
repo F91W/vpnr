@@ -29,6 +29,7 @@ The template file should be a normal .ovpn file with the following changes:
 
 	remote _VPNServer_ 1194
 	auth-user-pass _VPNAuth_
-	Add the following if required
+Add the following if required
+
 	ca _VPNCA_
 	crl _VPNCRL_
